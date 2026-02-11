@@ -1,0 +1,17 @@
+{
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring white background, mint/teal accents, orange CTA colors, smooth scrolling, and reusable component classes for section images, benefit cards, and trust badges.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom colors (orange CTA, mint/teal accents), Inter font family, soft shadows, and consistent border radius tokens for the premium health brand aesthetic.",
+  "frontend/src/App.tsx": "Main application component that composes all landing page sections in order with sticky header, mobile CTA bar, and footer.",
+  "frontend/src/components/CtaButton.tsx": "Reusable orange CTA button component that links to the affiliate URL with consistent styling, hover effects, and size variants (removed deprecated transform class).",
+  "frontend/src/components/StickyHeader.tsx": "Sticky header with GutOptim logo, smooth-scroll navigation menu, mobile hamburger menu, and orange Buy Now CTA button (updated to shrink-0).",
+  "frontend/src/components/MobileStickyCtaBar.tsx": "Mobile-only sticky bottom bar with full-width orange Buy Now button, visible only on small screens with safe-area padding.",
+  "frontend/src/components/sections/HeroSection.tsx": "Above-the-fold hero section with headline, subheadline, three trust bullets with icons, large orange CTA, and right-aligned product image (updated to shrink-0).",
+  "frontend/src/components/sections/ProblemSolutionSection.tsx": "Problem-solution section describing common gut issues with conservative wording, section image, and orange CTA button.",
+  "frontend/src/components/sections/BenefitsSection.tsx": "Six benefit cards in a responsive grid with icons, lifestyle image, and orange CTA button after the benefits.",
+  "frontend/src/components/sections/FormulaSection.tsx": "What's Inside section with four ingredient blocks featuring icons and descriptions, plus formula image and quality statement (updated to shrink-0).",
+  "frontend/src/components/sections/TrustQualitySection.tsx": "Four trust badge cards (quality tested, secure checkout, controlled facility, fast shipping) with icons and quality assurance image.",
+  "frontend/src/components/sections/TestimonialsSection.tsx": "Six customer review cards with 5-star ratings and realistic testimonials, section image, and orange CTA button (fixed apostrophe escaping with &quot;).",
+  "frontend/src/components/sections/FaqSection.tsx": "Expandable FAQ section with 8 questions including the four required questions, using accordion-style interaction with rounded cards (fixed apostrophe escaping and updated to shrink-0).",
+  "frontend/src/components/sections/FinalCtaSection.tsx": "Final conversion section with strong headline, urgency message with clock icon, large orange CTA, and closing product image (updated to shrink-0).",
+  "frontend/src/components/Footer.tsx": "Footer with copyright, caffeine.ai attribution with UTM tracking, and product disclaimer text."
+}

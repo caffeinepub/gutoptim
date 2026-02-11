@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Build a premium, high-converting affiliate landing page for the supplement brand “GutOptim” with a clean, modern, trustworthy US-health-brand aesthetic, specific section structure, repeated orange CTAs linking to the provided affiliate URL, and mandated image placements.",
+  "architectural_notes": [
+    "All CTA buttons must link to: https://gutoptim24.com/text.php#aff=Nexora_8248",
+    "CTA buttons: orange, large/high-contrast; hover state slightly darker orange",
+    "Navigation sections: Benefits, How It Works, Reviews, FAQ (smooth scroll)",
+    "Images must be consistent (same border radius) and aligned to a clean grid across sections"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-implement-a-single-page-gutoptim-affiliate-landing-page-with-a-premium-clean-trustworthy-modern-conversion-focused-design-white-background-soft-mint-teal-accents-modern-sans-serif-typography-rounded-cards-soft-shadows-and-spacious-layout",
+      "title": "Implement a single-page GutOptim affiliate landing page with a premium, clean, trustworthy, modern, conversion-focused design: white background, soft mint/teal accents, modern sans-serif typography, rounded cards, soft shadows, and spacious layout.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-sticky-header-with-left-aligned-text-logo-gutoptim-a-menu-linking-to-on-page-anchors-benefits-how-it-works-reviews-faq-with-smooth-scrolling-and-a-right-aligned-orange-buy-now-button-that-links-to-https-gutoptim24-com-text-php-aff-nexora-8248",
+      "title": "Create a sticky header with: left aligned text logo “GutOptim”, a menu linking to on-page anchors (Benefits, How It Works, Reviews, FAQ) with smooth scrolling, and a right aligned orange “Buy Now” button that links to https://gutoptim24.com/text.php#aff=Nexora_8248.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-hero-section-above-the-fold-with-left-side-copy-and-right-side-large-product-image-use-the-exact-headline-and-subheadline-provided-include-3-trust-bullets-with-icons-and-include-a-prominent-orange-buy-now-cta-that-links-to-https-gutoptim24-com-text-php-aff-nexora-8248-place-the-hero-image-on-the-right-using-https-raw-githubusercontent-com-automation8248-digi-affiliate-blog-main-images-gutoptim-images-20-1-20-30-jpeg",
+      "title": "Build the HERO section (above the fold) with left-side copy and right-side large product image. Use the exact headline and subheadline provided, include 3 trust bullets with icons, and include a prominent orange Buy Now CTA that links to https://gutoptim24.com/text.php#aff=Nexora_8248. Place the hero image on the right using: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(1)%20(30).jpeg",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-problem-solution-section-describing-common-gut-issues-bloating-gas-discomfort-irregular-digestion-and-positioning-gutoptim-as-the-daily-solution-including-an-orange-cta-under-the-section-that-links-to-https-gutoptim24-com-text-php-aff-nexora-8248-use-the-exact-image-for-this-section-https-raw-githubusercontent-com-automation8248-digi-affiliate-blog-main-images-gutoptim-images-20-1-20-31-jpeg",
+      "title": "Add a “Problem → Solution” section describing common gut issues (bloating, gas, discomfort, irregular digestion) and positioning GutOptim as the daily solution, including an orange CTA under the section that links to https://gutoptim24.com/text.php#aff=Nexora_8248. Use the exact image for this section: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(1)%20(31).jpeg",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-benefits-section-containing-6-benefit-cards-with-exactly-the-following-benefit-titles-supports-digestive-comfort-helps-reduce-bloating-gas-supports-gut-balance-supports-healthy-routine-gentle-daily-support-works-with-healthy-lifestyle-place-an-orange-cta-button-after-the-benefits-that-links-to-https-gutoptim24-com-text-php-aff-nexora-8248-place-the-benefits-related-image-near-this-section-using-https-raw-githubusercontent-com-automation8248-digi-affiliate-blog-main-images-gutoptim-images-20-32-jpeg",
+      "title": "Add a Benefits section containing 6 benefit cards with exactly the following benefit titles: Supports digestive comfort; Helps reduce bloating & gas; Supports gut balance; Supports healthy routine; Gentle daily support; Works with healthy lifestyle. Place an orange CTA button after the benefits that links to https://gutoptim24.com/text.php#aff=Nexora_8248. Place the benefits-related image near this section using: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(32).jpeg",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-what-s-inside-formula-section-with-ingredient-style-blocks-and-a-clean-premium-formula-explanation-layout-avoid-extreme-medical-promises-use-the-exact-image-for-this-section-https-raw-githubusercontent-com-automation8248-digi-affiliate-blog-main-images-gutoptim-images-20-1-20-29-jpeg",
+      "title": "Add a “What’s Inside / Formula” section with ingredient-style blocks and a clean premium formula explanation layout (avoid extreme medical promises). Use the exact image for this section: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(1)%20(29).jpeg",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-trust-quality-section-containing-4-badge-cards-quality-tested-secure-checkout-made-in-controlled-facility-fast-shipping-use-the-exact-image-for-this-section-https-raw-githubusercontent-com-automation8248-digi-affiliate-blog-main-images-gutoptim-images-20-34-jpeg",
+      "title": "Add a “Trust & Quality” section containing 4 badge cards: Quality tested; Secure checkout; Made in controlled facility; Fast shipping. Use the exact image for this section: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(34).jpeg",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-testimonials-reviews-section-with-6-realistic-review-cards-each-showing-and-short-believable-experiences-comfort-routine-feeling-lighter-include-an-orange-cta-button-under-the-reviews-linking-to-https-gutoptim24-com-text-php-aff-nexora-8248-use-the-exact-image-for-this-section-https-raw-githubusercontent-com-automation8248-digi-affiliate-blog-main-images-gutoptim-images-20-33-jpeg",
+      "title": "Add a “Testimonials / Reviews” section with 6 realistic review cards, each showing ⭐⭐⭐⭐⭐ and short believable experiences (comfort, routine, feeling lighter). Include an orange CTA button under the reviews linking to https://gutoptim24.com/text.php#aff=Nexora_8248. Use the exact image for this section: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(33).jpeg",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-faq-section-with-6-8-questions-including-how-to-take-gutoptim-daily-when-will-i-notice-results-is-checkout-secure-and-how-do-i-order-render-faqs-in-a-clean-conversion-friendly-expandable-layout",
+      "title": "Add an FAQ section with 6–8 questions, including: “How to take GutOptim daily?”, “When will I notice results?”, “Is checkout secure?”, and “How do I order?”. Render FAQs in a clean, conversion-friendly expandable layout.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-final-cta-section-with-headline-take-control-of-your-gut-health-today-urgency-line-limited-availability-order-now-before-stock-runs-out-and-a-big-orange-buy-now-button-linking-to-https-gutoptim24-com-text-php-aff-nexora-8248-use-the-exact-image-for-this-section-https-raw-githubusercontent-com-automation8248-digi-affiliate-blog-main-images-gutoptim-images-20-35-jpeg",
+      "title": "Add a final CTA section with: headline “Take Control of Your Gut Health Today”, urgency line “Limited availability — order now before stock runs out.”, and a big orange Buy Now button linking to https://gutoptim24.com/text.php#aff=Nexora_8248. Use the exact image for this section: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(35).jpeg",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-every-buy-now-order-now-cta-across-the-page-uses-the-same-orange-primary-button-style-large-high-contrast-with-a-slightly-darker-orange-hover-state-and-that-every-cta-links-exactly-to-https-gutoptim24-com-text-php-aff-nexora-8248-ctas-must-appear-at-minimum-in-hero-section-after-benefits-after-testimonials-sticky-mobile-bottom-bar-and-final-cta-section",
+      "title": "Ensure every “Buy Now” / “Order Now” CTA across the page uses the same orange primary button style (large, high contrast) with a slightly darker orange hover state, and that every CTA links exactly to https://gutoptim24.com/text.php#aff=Nexora_8248. CTAs must appear at minimum in: Hero section, after Benefits, after Testimonials, sticky mobile bottom bar, and Final CTA section.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-sticky-mobile-bottom-buy-now-bar-that-is-visible-on-small-screens-while-scrolling-with-a-prominent-orange-button-linking-to-https-gutoptim24-com-text-php-aff-nexora-8248-without-obstructing-key-content-appropriate-spacing-safe-area-handling",
+      "title": "Implement a sticky mobile bottom “Buy Now” bar that is visible on small screens while scrolling, with a prominent orange button linking to https://gutoptim24.com/text.php#aff=Nexora_8248, without obstructing key content (appropriate spacing/safe-area handling).",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-use-the-provided-images-with-exact-section-placement-and-make-them-visually-consistent-same-border-radius-aligned-grid-no-random-placement",
+      "title": "Use the provided images with exact section placement and make them visually consistent (same border radius, aligned grid, no random placement).",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-optimize-for-fast-loading-and-clean-ux-keep-the-page-lightweight-no-unnecessary-heavy-libraries-ensure-responsive-layout-and-maintain-clean-spacing-with-repeated-ctas-for-conversion",
+      "title": "Optimize for fast loading and clean UX: keep the page lightweight (no unnecessary heavy libraries), ensure responsive layout, and maintain clean spacing with repeated CTAs for conversion.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create GutOptim affiliate landing page with specified high-converting section structure (sticky header, hero, problem/solution, benefits, formula, trust, testimonials, FAQ, final CTA)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Implement required CTA behavior and placement: all Buy/Order buttons orange with hover darker orange; CTAs in hero, after benefits, after testimonials, sticky mobile bottom bar, and final CTA; all link to https://gutoptim24.com/text.php#aff=Nexora_8248",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Apply required visual design system: white background with soft mint/teal accents, modern sans-serif, rounded cards, soft shadows, spacious layout, premium clinical trust feel",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Use the provided images with exact section placement and consistent styling (same border radius, aligned grid, no random placement)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Add extra conversion features: sticky mobile bottom Buy Now bar, smooth scroll, fast loading, clean spacing/no clutter, repeated CTAs",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "GutOptim",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,69 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-11T03:33:20.955Z",
+  "summary": "Diff adds a composed single-page GutOptim landing page with all major sections, repeated orange CTAs via a shared CtaButton, sticky header navigation with smooth scrolling, and a mobile sticky bottom CTA bar. However, it also introduces Internet Identity/auth-related hooks and provider wiring (a stated non-goal / immutable-path constraint), and includes unrequested footer attribution/disclaimer content. Mobile safe-area handling is referenced but not evidenced as implemented in CSS.",
+  "missing_requirements": [
+    {
+      "id": "REQ-12",
+      "requirement": "Sticky mobile bottom “Buy Now” bar should include appropriate spacing/safe-area handling so it doesn’t obstruct key content.",
+      "reason": "MobileStickyCtaBar uses a `safe-area-bottom` class, but no corresponding utility/style is shown in the provided CSS, so safe-area handling is not evidenced as implemented.",
+      "evidence": [
+        "frontend/src/components/MobileStickyCtaBar.tsx",
+        "frontend/src/index.css"
+      ]
+    }
+  ],
+  "hallucinated_features": [
+    {
+      "description": "Internet Identity authentication/provider and actor wiring included in the app (non-goal) and changes appear in immutable paths.",
+      "reason": "BuildRequest explicitly lists Internet Identity authentication/user accounts as non-goals and marks these hook files and main.tsx as immutable/no-edit, yet the diff adds InternetIdentityProvider usage and includes II/actor hooks.",
+      "evidence": [
+        "frontend/src/main.tsx",
+        "frontend/src/hooks/useInternetIdentity.ts",
+        "frontend/src/hooks/useActor.ts"
+      ]
+    },
+    {
+      "description": "Footer includes caffeine.ai attribution with UTM tracking.",
+      "reason": "Not requested in any requirement; adds external promotional link/tracking.",
+      "evidence": [
+        "frontend/src/components/Footer.tsx"
+      ]
+    },
+    {
+      "description": "Footer includes FDA-style supplement disclaimer text.",
+      "reason": "Not requested in requirements; adds additional compliance/disclaimer copy beyond specified sections.",
+      "evidence": [
+        "frontend/src/components/Footer.tsx"
+      ]
+    }
+  ],
+  "confidence": 0.74,
+  "changed_files": [
+    "all_files_summary.json",
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/CtaButton.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/MobileStickyCtaBar.tsx",
+    "frontend/src/components/StickyHeader.tsx",
+    "frontend/src/components/sections/BenefitsSection.tsx",
+    "frontend/src/components/sections/FaqSection.tsx",
+    "frontend/src/components/sections/FinalCtaSection.tsx",
+    "frontend/src/components/sections/FormulaSection.tsx",
+    "frontend/src/components/sections/HeroSection.tsx",
+    "frontend/src/components/sections/ProblemSolutionSection.tsx",
+    "frontend/src/components/sections/TestimonialsSection.tsx",
+    "frontend/src/components/sections/TrustQualitySection.tsx",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

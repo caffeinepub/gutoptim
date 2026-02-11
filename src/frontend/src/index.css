@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        /* White background with mint/teal accents */
+        --background: 1 0 0; /* Pure white */
+        --foreground: 0.2 0 0; /* Dark text */
+        --card: 1 0 0;
+        --card-foreground: 0.2 0 0;
+        --popover: 1 0 0;
+        --popover-foreground: 0.2 0 0;
+        
+        /* Orange CTA color */
+        --cta-orange: 0.65 0.18 35; /* Vibrant orange */
+        --cta-orange-hover: 0.58 0.18 35; /* Darker orange for hover */
+        
+        /* Mint/Teal accents */
+        --accent-mint: 0.88 0.08 165; /* Soft mint */
+        --accent-teal: 0.75 0.12 180; /* Soft teal */
+        
+        --primary: 0.2 0 0;
+        --primary-foreground: 1 0 0;
+        --secondary: 0.96 0.01 165; /* Light mint background */
+        --secondary-foreground: 0.2 0 0;
+        --muted: 0.97 0 0;
+        --muted-foreground: 0.5 0 0;
+        --accent: 0.88 0.08 165;
+        --accent-foreground: 0.2 0 0;
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 1 0 0;
+        --border: 0.92 0 0;
+        --input: 0.92 0 0;
+        --ring: 0.75 0.12 180;
+    }
+
+    .dark {
+        --background: 0.15 0 0;
+        --foreground: 0.98 0 0;
+        --card: 0.2 0 0;
+        --card-foreground: 0.98 0 0;
+        --popover: 0.2 0 0;
+        --popover-foreground: 0.98 0 0;
+        --primary: 0.92 0 0;
+        --primary-foreground: 0.2 0 0;
+        --secondary: 0.25 0.05 165;
+        --secondary-foreground: 0.98 0 0;
+        --muted: 0.25 0 0;
+        --muted-foreground: 0.7 0 0;
+        --accent: 0.3 0.08 165;
+        --accent-foreground: 0.98 0 0;
+        --destructive: 0.7 0.19 22.216;
+        --destructive-foreground: 0.98 0 0;
+        --border: 0.3 0 0;
+        --input: 0.3 0 0;
+        --ring: 0.6 0.12 180;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+    }
+}
+
+@layer components {
+    .section-image {
+        @apply rounded-2xl shadow-lg w-full h-auto object-cover;
+    }
+    
+    .benefit-card {
+        @apply bg-white rounded-xl shadow-md p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+    }
+    
+    .trust-badge {
+        @apply bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center;
+    }
+}
+
+@layer utilities {
+    .container-custom {
+        @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    }
+}
