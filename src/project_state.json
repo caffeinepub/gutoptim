@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 3,
+  "projectStateVersion": 5,
   "summary": "Build a premium, high-converting affiliate landing page for the supplement brand “GutOptim” with a clean, modern, trustworthy US-health-brand aesthetic, specific section structure, repeated orange CTAs linking to the provided affiliate URL, and mandated image placements.",
   "architectural_notes": [
     "All CTA buttons must link to: https://gutoptim24.com/text.php#aff=Nexora_8248",
@@ -9,7 +9,7 @@
     "Images must be consistent (same border radius) and aligned to a clean grid across sections"
   ],
   "known_issues": [],
-  "isFixRequest": false,
+  "isFixRequest": true,
   "existing_features": [
     {
       "id": "feature-implement-a-single-page-gutoptim-affiliate-landing-page-with-a-premium-clean-trustworthy-modern-conversion-focused-design-white-background-soft-mint-teal-accents-modern-sans-serif-typography-rounded-cards-soft-shadows-and-spacious-layout",
@@ -122,6 +122,14 @@
         "REQ-14"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-remove-the-product-disclaimer-text-from-the-landing-page-footer-the-paragraph-starting-with-disclaimer-these-statements-have-not-been-evaluated-by-the-food-and-drug-administration-while-keeping-the-rest-of-the-footer-content-copyright-and-the-caffeine-ai-attribution-link-intact",
+      "title": "Remove the product disclaimer text from the landing page footer (the paragraph starting with “Disclaimer: These statements have not been evaluated by the Food and Drug Administration...”), while keeping the rest of the footer content (copyright and the caffeine.ai attribution link) intact.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -152,6 +160,12 @@
     {
       "id": "AR-5",
       "summary": "Add extra conversion features: sticky mobile bottom Buy Now bar, smooth scroll, fast loading, clean spacing/no clutter, repeated CTAs",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Remove the disclaimer text/section from the GutOptim landing page",
       "reqIds": [],
       "status": "pending"
     }

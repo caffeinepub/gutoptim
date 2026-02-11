@@ -13,5 +13,5 @@
   "frontend/src/components/sections/TestimonialsSection.tsx": "Six customer review cards with 5-star ratings and realistic testimonials, section image, and orange CTA button (fixed apostrophe escaping with &quot;).",
   "frontend/src/components/sections/FaqSection.tsx": "Expandable FAQ section with 8 questions including the four required questions, using accordion-style interaction with rounded cards (fixed apostrophe escaping and updated to shrink-0).",
   "frontend/src/components/sections/FinalCtaSection.tsx": "Final conversion section with strong headline, urgency message with clock icon, large orange CTA, and closing product image (updated to shrink-0).",
-  "frontend/src/components/Footer.tsx": "Footer with copyright, caffeine.ai attribution with UTM tracking, and product disclaimer text."
+  "frontend/src/components/Footer.tsx": "Footer with copyright, caffeine.ai attribution with UTM tracking (disclaimer removed)."
 }

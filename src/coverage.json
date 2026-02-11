@@ -1,326 +1,35 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-11T03:33:20.960Z",
+  "generatedAt": "2026-02-11T03:41:33.543Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
   },
   "requirements": {
-    "total": 14,
-    "implemented": 14,
+    "total": 1,
+    "implemented": 1,
     "items": [
       {
-        "id": "REQ-1",
-        "summary": "Implement a single-page GutOptim affiliate landing page with a premium, clean, trustworthy, modern, conversion-focused design: white background, soft mint/teal accents, modern sans-serif typography, rounded cards, soft shadows, and spacious layout.",
+        "id": "REQ-15",
+        "summary": "Remove the product disclaimer text from the landing page footer (the paragraph starting with “Disclaimer: These statements have not been evaluated by the Food and Drug Administration...”), while keeping the rest of the footer content (copyright and the caffeine.ai attribution link) intact.",
         "status": "implemented",
         "plannedFiles": [
-          "frontend/src/index.css",
-          "frontend/src/App.tsx"
+          "frontend/src/components/Footer.tsx"
         ],
         "matchedFiles": [
-          "frontend/src/index.css",
-          "frontend/src/App.tsx"
-        ]
-      },
-      {
-        "id": "REQ-10",
-        "summary": "Add a final CTA section with: headline “Take Control of Your Gut Health Today”, urgency line “Limited availability — order now before stock runs out.”, and a big orange Buy Now button linking to https://gutoptim24.com/text.php#aff=Nexora_8248. Use the exact image for this section: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(35).jpeg",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/sections/FinalCtaSection.tsx",
-          "frontend/src/App.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/sections/FinalCtaSection.tsx",
-          "frontend/src/App.tsx"
-        ]
-      },
-      {
-        "id": "REQ-11",
-        "summary": "Ensure every “Buy Now” / “Order Now” CTA across the page uses the same orange primary button style (large, high contrast) with a slightly darker orange hover state, and that every CTA links exactly to https://gutoptim24.com/text.php#aff=Nexora_8248. CTAs must appear at minimum in: Hero section, after Benefits, after Testimonials, sticky mobile bottom bar, and Final CTA section.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/CtaButton.tsx",
-          "frontend/src/components/StickyHeader.tsx",
-          "frontend/src/components/sections/HeroSection.tsx",
-          "frontend/src/components/sections/BenefitsSection.tsx",
-          "frontend/src/components/sections/TestimonialsSection.tsx",
-          "frontend/src/components/sections/FinalCtaSection.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/CtaButton.tsx",
-          "frontend/src/components/StickyHeader.tsx",
-          "frontend/src/components/sections/HeroSection.tsx",
-          "frontend/src/components/sections/BenefitsSection.tsx",
-          "frontend/src/components/sections/TestimonialsSection.tsx",
-          "frontend/src/components/sections/FinalCtaSection.tsx"
-        ]
-      },
-      {
-        "id": "REQ-12",
-        "summary": "Implement a sticky mobile bottom “Buy Now” bar that is visible on small screens while scrolling, with a prominent orange button linking to https://gutoptim24.com/text.php#aff=Nexora_8248, without obstructing key content (appropriate spacing/safe-area handling).",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/MobileStickyCtaBar.tsx",
-          "frontend/src/App.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/MobileStickyCtaBar.tsx",
-          "frontend/src/App.tsx"
-        ]
-      },
-      {
-        "id": "REQ-13",
-        "summary": "Use the provided images with exact section placement and make them visually consistent (same border radius, aligned grid, no random placement).",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/sections/HeroSection.tsx",
-          "frontend/src/components/sections/ProblemSolutionSection.tsx",
-          "frontend/src/components/sections/BenefitsSection.tsx",
-          "frontend/src/components/sections/FormulaSection.tsx",
-          "frontend/src/components/sections/TrustQualitySection.tsx",
-          "frontend/src/components/sections/TestimonialsSection.tsx",
-          "frontend/src/components/sections/FinalCtaSection.tsx",
-          "frontend/src/index.css"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/sections/HeroSection.tsx",
-          "frontend/src/components/sections/ProblemSolutionSection.tsx",
-          "frontend/src/components/sections/BenefitsSection.tsx",
-          "frontend/src/components/sections/FormulaSection.tsx",
-          "frontend/src/components/sections/TrustQualitySection.tsx",
-          "frontend/src/components/sections/TestimonialsSection.tsx",
-          "frontend/src/components/sections/FinalCtaSection.tsx",
-          "frontend/src/index.css"
-        ]
-      },
-      {
-        "id": "REQ-14",
-        "summary": "Optimize for fast loading and clean UX: keep the page lightweight (no unnecessary heavy libraries), ensure responsive layout, and maintain clean spacing with repeated CTAs for conversion.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/App.tsx",
-          "frontend/src/index.css"
-        ],
-        "matchedFiles": [
-          "frontend/src/App.tsx",
-          "frontend/src/index.css"
-        ]
-      },
-      {
-        "id": "REQ-2",
-        "summary": "Create a sticky header with: left aligned text logo “GutOptim”, a menu linking to on-page anchors (Benefits, How It Works, Reviews, FAQ) with smooth scrolling, and a right aligned orange “Buy Now” button that links to https://gutoptim24.com/text.php#aff=Nexora_8248.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/StickyHeader.tsx",
-          "frontend/src/index.css",
-          "frontend/src/App.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/StickyHeader.tsx",
-          "frontend/src/index.css",
-          "frontend/src/App.tsx"
-        ]
-      },
-      {
-        "id": "REQ-3",
-        "summary": "Build the HERO section (above the fold) with left-side copy and right-side large product image. Use the exact headline and subheadline provided, include 3 trust bullets with icons, and include a prominent orange Buy Now CTA that links to https://gutoptim24.com/text.php#aff=Nexora_8248. Place the hero image on the right using: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(1)%20(30).jpeg",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/sections/HeroSection.tsx",
-          "frontend/src/App.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/sections/HeroSection.tsx",
-          "frontend/src/App.tsx"
-        ]
-      },
-      {
-        "id": "REQ-4",
-        "summary": "Add a “Problem → Solution” section describing common gut issues (bloating, gas, discomfort, irregular digestion) and positioning GutOptim as the daily solution, including an orange CTA under the section that links to https://gutoptim24.com/text.php#aff=Nexora_8248. Use the exact image for this section: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(1)%20(31).jpeg",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/sections/ProblemSolutionSection.tsx",
-          "frontend/src/App.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/sections/ProblemSolutionSection.tsx",
-          "frontend/src/App.tsx"
-        ]
-      },
-      {
-        "id": "REQ-5",
-        "summary": "Add a Benefits section containing 6 benefit cards with exactly the following benefit titles: Supports digestive comfort; Helps reduce bloating & gas; Supports gut balance; Supports healthy routine; Gentle daily support; Works with healthy lifestyle. Place an orange CTA button after the benefits that links to https://gutoptim24.com/text.php#aff=Nexora_8248. Place the benefits-related image near this section using: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(32).jpeg",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/sections/BenefitsSection.tsx",
-          "frontend/src/App.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/sections/BenefitsSection.tsx",
-          "frontend/src/App.tsx"
-        ]
-      },
-      {
-        "id": "REQ-6",
-        "summary": "Add a “What’s Inside / Formula” section with ingredient-style blocks and a clean premium formula explanation layout (avoid extreme medical promises). Use the exact image for this section: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(1)%20(29).jpeg",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/sections/FormulaSection.tsx",
-          "frontend/src/App.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/sections/FormulaSection.tsx",
-          "frontend/src/App.tsx"
-        ]
-      },
-      {
-        "id": "REQ-7",
-        "summary": "Add a “Trust & Quality” section containing 4 badge cards: Quality tested; Secure checkout; Made in controlled facility; Fast shipping. Use the exact image for this section: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(34).jpeg",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/sections/TrustQualitySection.tsx",
-          "frontend/src/App.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/sections/TrustQualitySection.tsx",
-          "frontend/src/App.tsx"
-        ]
-      },
-      {
-        "id": "REQ-8",
-        "summary": "Add a “Testimonials / Reviews” section with 6 realistic review cards, each showing ⭐⭐⭐⭐⭐ and short believable experiences (comfort, routine, feeling lighter). Include an orange CTA button under the reviews linking to https://gutoptim24.com/text.php#aff=Nexora_8248. Use the exact image for this section: https://raw.githubusercontent.com/Automation8248/Digi-affiliate-blog-/main/images/gutoptim/images%20(33).jpeg",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/sections/TestimonialsSection.tsx",
-          "frontend/src/App.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/sections/TestimonialsSection.tsx",
-          "frontend/src/App.tsx"
-        ]
-      },
-      {
-        "id": "REQ-9",
-        "summary": "Add an FAQ section with 6–8 questions, including: “How to take GutOptim daily?”, “When will I notice results?”, “Is checkout secure?”, and “How do I order?”. Render FAQs in a clean, conversion-friendly expandable layout.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/sections/FaqSection.tsx",
-          "frontend/src/App.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/sections/FaqSection.tsx",
-          "frontend/src/App.tsx"
+          "frontend/src/components/Footer.tsx"
         ]
       }
     ]
   },
   "changedFiles": [
-    "backend/main.mo",
     "build-request.json",
-    "build-template/Dockerfile",
-    "build-template/LICENSE",
     "build-template/README.md",
-    "build-template/deploy.sh",
-    "build-template/icp.yaml",
-    "build-template/package.json",
-    "build-template/pnpm-lock.yaml",
-    "build-template/pnpm-workspace.yaml",
-    "build-template/scripts/prune-unused-images.js",
-    "build-template/scripts/resize-images.js",
-    "build-template/src/backend/canister.yaml",
-    "build-template/src/backend/system-idl/aaaaa-aa.did",
-    "build-template/src/frontend/canister.yaml",
-    "build-template/src/frontend/components.json",
-    "build-template/src/frontend/env.json",
-    "build-template/src/frontend/eslint-rules/no-bigint-in-query-keys.js",
-    "build-template/src/frontend/eslint-rules/require-internet-identity-provider.js",
-    "build-template/src/frontend/eslint.config.js",
-    "build-template/src/frontend/package.json",
-    "build-template/src/frontend/postcss.config.js",
-    "build-template/src/frontend/src/components/ui/accordion.tsx",
-    "build-template/src/frontend/src/components/ui/alert-dialog.tsx",
-    "build-template/src/frontend/src/components/ui/alert.tsx",
-    "build-template/src/frontend/src/components/ui/aspect-ratio.tsx",
-    "build-template/src/frontend/src/components/ui/avatar.tsx",
-    "build-template/src/frontend/src/components/ui/badge.tsx",
-    "build-template/src/frontend/src/components/ui/breadcrumb.tsx",
-    "build-template/src/frontend/src/components/ui/button.tsx",
-    "build-template/src/frontend/src/components/ui/calendar.tsx",
-    "build-template/src/frontend/src/components/ui/card.tsx",
-    "build-template/src/frontend/src/components/ui/carousel.tsx",
-    "build-template/src/frontend/src/components/ui/chart.tsx",
-    "build-template/src/frontend/src/components/ui/checkbox.tsx",
-    "build-template/src/frontend/src/components/ui/collapsible.tsx",
-    "build-template/src/frontend/src/components/ui/command.tsx",
-    "build-template/src/frontend/src/components/ui/context-menu.tsx",
-    "build-template/src/frontend/src/components/ui/dialog.tsx",
-    "build-template/src/frontend/src/components/ui/drawer.tsx",
-    "build-template/src/frontend/src/components/ui/dropdown-menu.tsx",
-    "build-template/src/frontend/src/components/ui/form.tsx",
-    "build-template/src/frontend/src/components/ui/hover-card.tsx",
-    "build-template/src/frontend/src/components/ui/input-otp.tsx",
-    "build-template/src/frontend/src/components/ui/input.tsx",
-    "build-template/src/frontend/src/components/ui/label.tsx",
-    "build-template/src/frontend/src/components/ui/menubar.tsx",
-    "build-template/src/frontend/src/components/ui/navigation-menu.tsx",
-    "build-template/src/frontend/src/components/ui/pagination.tsx",
-    "build-template/src/frontend/src/components/ui/popover.tsx",
-    "build-template/src/frontend/src/components/ui/progress.tsx",
-    "build-template/src/frontend/src/components/ui/radio-group.tsx",
-    "build-template/src/frontend/src/components/ui/resizable.tsx",
-    "build-template/src/frontend/src/components/ui/scroll-area.tsx",
-    "build-template/src/frontend/src/components/ui/select.tsx",
-    "build-template/src/frontend/src/components/ui/separator.tsx",
-    "build-template/src/frontend/src/components/ui/sheet.tsx",
-    "build-template/src/frontend/src/components/ui/sidebar.tsx",
-    "build-template/src/frontend/src/components/ui/skeleton.tsx",
-    "build-template/src/frontend/src/components/ui/slider.tsx",
-    "build-template/src/frontend/src/components/ui/sonner.tsx",
-    "build-template/src/frontend/src/components/ui/switch.tsx",
-    "build-template/src/frontend/src/components/ui/table.tsx",
-    "build-template/src/frontend/src/components/ui/tabs.tsx",
-    "build-template/src/frontend/src/components/ui/textarea.tsx",
-    "build-template/src/frontend/src/components/ui/toggle-group.tsx",
-    "build-template/src/frontend/src/components/ui/toggle.tsx",
-    "build-template/src/frontend/src/components/ui/tooltip.tsx",
-    "build-template/src/frontend/src/hooks/use-mobile.tsx",
-    "build-template/src/frontend/src/lib/utils.ts",
-    "build-template/src/frontend/tsconfig.json",
-    "build-template/src/frontend/vite.config.js",
-    "build-template/tsconfig.json",
-    "caffeine.lock.json",
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",
-    "frontend/index.css",
-    "frontend/index.html",
-    "frontend/src/App.tsx",
-    "frontend/src/backend.d.ts",
-    "frontend/src/backend.ts",
-    "frontend/src/components/CtaButton.tsx",
     "frontend/src/components/Footer.tsx",
-    "frontend/src/components/MobileStickyCtaBar.tsx",
-    "frontend/src/components/StickyHeader.tsx",
-    "frontend/src/components/sections/BenefitsSection.tsx",
-    "frontend/src/components/sections/FaqSection.tsx",
-    "frontend/src/components/sections/FinalCtaSection.tsx",
-    "frontend/src/components/sections/FormulaSection.tsx",
-    "frontend/src/components/sections/HeroSection.tsx",
-    "frontend/src/components/sections/ProblemSolutionSection.tsx",
-    "frontend/src/components/sections/TestimonialsSection.tsx",
-    "frontend/src/components/sections/TrustQualitySection.tsx",
-    "frontend/src/config.ts",
-    "frontend/src/declarations/backend.did.d.ts",
-    "frontend/src/declarations/backend.did.js",
-    "frontend/src/hooks/useActor.ts",
-    "frontend/src/hooks/useInternetIdentity.ts",
-    "frontend/src/index.css",
-    "frontend/src/main.tsx",
-    "frontend/src/ui-summary.json",
-    "frontend/src/utils/StorageClient.ts",
-    "frontend/tailwind.config.js",
     "project_state.json",
     "scratch/component-selection.json",
     "spec.md",

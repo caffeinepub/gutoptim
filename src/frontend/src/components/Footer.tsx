@@ -27,9 +27,6 @@ const Footer: React.FC = () => {
               caffeine.ai
             </a>
           </p>
-          <p className="text-xs text-muted-foreground max-w-2xl mx-auto">
-            Disclaimer: These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Results may vary. Consult your healthcare provider before starting any supplement regimen.
-          </p>
         </div>
       </div>
     </footer>
